@@ -536,11 +536,14 @@ html, body {
 }
 
 .reviews__discover-link {
+  display: flex;
   font-weight: 700;
   font-size: 17px;
   line-height: 20px;
   text-align: center;
   text-decoration-line: underline;
+  align-items: center;
+  justify-content: center;
 }
 
 .reviews__discover-link:hover {
